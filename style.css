@@ -1,0 +1,38 @@
+button{
+    padding:5px 10px;
+    font-size:20px;
+    background-color: blue;
+    border-radius: 10px;
+    color:rgb(225, 220, 220);
+    cursor:pointer;
+    margin:4px;
+}
+
+.button_collection{
+    display:grid;
+    justify-content:space-between;
+    flex:auto;
+    height:95vh;
+    overflow:auto; 
+    width:25vw;
+}
+
+a{
+    color:rgb(225, 220, 220);
+    text-decoration: none;
+}
+
+.new{
+    display:flex;
+    flex:auto;
+    justify-content:center;
+}
+
+.pages{
+    height:110vh;
+    border-top:blue 10px solid;
+    width:100vw;
+    overflow:auto;
+}
+
+
